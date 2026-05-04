@@ -140,4 +140,4 @@ if prompt := st.chat_input("E.g., 'Ping 192.168.1.50' or 'What is a SQL injectio
     st.session_state.chat_history.append({"role": "assistant", "content": response})
 
 st.markdown("---")
-st.caption("Developed for KDU LB3114 - Data Science Applications and AI")
+st.caption("Sathush 504 | 2026")
