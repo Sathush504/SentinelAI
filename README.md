@@ -1,6 +1,6 @@
 # SentinelAI: Autonomous Cybersecurity Monitoring Agent
 
-SentinelAI is an advanced AI agent developed for the Data Science Applications and AI course (LB3114) at General Sir John Kotelawala Defence University. It demonstrates the practical application of LLM-based autonomous reasoning in the domain of cybersecurity.
+SentinelAI is an advanced AI agent designed to demonstrate the application of Large Language Models (LLMs) for autonomous reasoning in cybersecurity. The system analyzes system logs, detects potential threats, and provides actionable insights using contextual understanding rather than traditional signature-based methods.
 
 ---
 
