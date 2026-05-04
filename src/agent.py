@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.agents import create_agent
 from langchain_core.messages import SystemMessage
-from langchain_community.tools.ddg_search.tool import DuckDuckGoSearchRun
 from langchain.tools import tool
 
 load_dotenv()
@@ -43,7 +42,7 @@ class SentinelAgent:
     def __init__(self):
         # Use Gemini Flash (Free tier friendly)
         self.llm = ChatGoogleGenerativeAI(model="gemini-3.1-flash-lite-preview", temperature=0)
-        self.tools = [DuckDuckGoSearchRun(), security_policy_lookup, execute_terminal_command]
+        self.tools = [security_policy_lookup, execute_terminal_command]
         
         system_prompt = (
             "You are SentinelAI, an expert autonomous cybersecurity analyst. "
