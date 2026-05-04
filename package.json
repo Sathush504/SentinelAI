@@ -1,0 +1,17 @@
+{
+  "name": "sentinel-ai",
+  "version": "1.0.0",
+  "description": "**SentinelAI** is an advanced AI agent developed for the Data Science Applications and AI course (LB3114) at General Sir John Kotelawala Defence University. It demonstrates the practical application of LLM-based autonomous reasoning in the domain of cybersecurity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "node-pty": "^1.1.0",
+    "socket.io": "^4.8.3"
+  }
+}
